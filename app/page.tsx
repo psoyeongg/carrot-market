@@ -1,12 +1,8 @@
 export default function Home() {
   return (
-    <main className="bg-gray-100 sm:bg-red-100 md:bg-green-100 lg:bg-cyan-100 xl:bg-orange-100 2xl:bg-purple-100 h-screen flex items-center justify-center p-5 w-full">
-      <div className="bg-white shadow-lg p-5 rounded-3xl w-full max-w-screen-sm flex flex-col gap-2 md:flex-row *:outline-none ring ring-transparent transition-shadow has-[:invalid]:ring-red-100">
-        <div className="group flex flex-col">
-          <input className="bg-gray-100 w-full" placeholder="Write your email" type="text" />
-          <span className="group-focus-within:block hidden">Make sure it is a valid email...</span>
-          <button>Submit</button>
-        </div>
+    <main className="flex items-center justify-center w-full h-screen p-5 bg-gray-100 sm:bg-red-100 md:bg-green-100 lg:bg-cyan-100 xl:bg-orange-100 2xl:bg-purple-100">
+      <div className="flex flex-col w-full max-w-screen-sm gap-4 p-5 bg-white shadow-lg rounded-3xl">
+        <button className="w-full h-10 text-white bg-black rounded-sexy-name me-tomato">Submit</button>
       </div>
     </main>
   );
