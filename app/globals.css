@@ -1,3 +1,21 @@
-@tailwind base;
+@tailwind base; 
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-red-500
+  }
+}
+
+@layer utilities {
+  .text-bigger-hello {
+    @apply text-3xl font-semibold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply w-full h-10 text-white bg-black rounded-sexy-name me-tomato;
+  }
+}
