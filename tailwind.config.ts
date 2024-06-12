@@ -7,14 +7,6 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      margin: {
-        tomato: '120px'
-      },
-      borderRadius: {
-        'sexy-name': '20.11px',
-      }
-    }
   },
   plugins: [
     require('@tailwindcss/forms'),
